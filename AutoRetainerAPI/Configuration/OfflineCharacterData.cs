@@ -22,6 +22,7 @@ public class OfflineCharacterData
     public uint Ventures = 0;
     public uint InventorySpace = 0;
     public uint VentureCoffers = 0;
+    public List<uint> StoredCabinetItems = [];
     public int ServiceAccount = 0;
     public bool EnableGCArmoryHandin = false; //todo: remove
     public bool ShouldSerializeEnableGCArmoryHandin() => false;
