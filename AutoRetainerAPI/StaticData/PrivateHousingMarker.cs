@@ -1,6 +1,6 @@
 ﻿namespace AutoRetainerAPI.StaticData;
 /// <summary>
-/// This enum contains markers of private property owned by you
+/// 此枚举包含你拥有的个人房屋标记。
 /// </summary>
 public enum PrivateHousingMarker
 {

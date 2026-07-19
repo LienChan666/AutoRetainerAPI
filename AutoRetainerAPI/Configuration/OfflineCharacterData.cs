@@ -23,7 +23,7 @@ public class OfflineCharacterData
     public uint InventorySpace = 0;
     public uint VentureCoffers = 0;
     public int ServiceAccount = 0;
-    public bool EnableGCArmoryHandin = false; //todo: remove
+    public bool EnableGCArmoryHandin = false; // TODO：移除
     public bool ShouldSerializeEnableGCArmoryHandin() => false;
     public GCDeliveryType GCDeliveryType = GCDeliveryType.Disabled;
     public HashSet<uint> UnlockedGatheringItems = [];
@@ -35,8 +35,6 @@ public class OfflineCharacterData
     public List<OfflineVesselData> OfflineSubmarineData = [];
     public HashSet<string> EnabledAirships = [];
     public HashSet<string> EnabledSubs = [];
-    //public HashSet<string> FinalizeAirships = new();
-    //public HashSet<string> FinalizeSubs = new();
     public Dictionary<string, AdditionalVesselData> AdditionalAirshipData = [];
     public Dictionary<string, AdditionalVesselData> AdditionalSubmarineData = [];
     public int Ceruleum = 0;

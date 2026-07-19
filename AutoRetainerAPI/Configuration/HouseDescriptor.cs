@@ -50,7 +50,7 @@ public class HouseDescriptor : IEquatable<HouseDescriptor>
 
     public override string ToString()
     {
-        return $"[{ExcelTerritoryHelper.GetName(TerritoryType, true)} @ ward={Ward}, plot={Plot}]";
+        return $"[{ExcelTerritoryHelper.GetName(TerritoryType, true)} @ 区={Ward}，地块={Plot}]";
     }
 
     public static bool operator ==(HouseDescriptor left, HouseDescriptor right)

@@ -1,6 +1,6 @@
 ﻿namespace AutoRetainerAPI.StaticData;
 /// <summary>
-/// This enum contains markers of apartment buildings where you own an apartment
+/// 此枚举包含你拥有公寓的公寓楼标记。
 /// </summary>
 public enum ApartmentHousingMarker
 {

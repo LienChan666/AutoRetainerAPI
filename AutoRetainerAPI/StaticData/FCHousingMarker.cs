@@ -1,6 +1,6 @@
 ﻿namespace AutoRetainerAPI.StaticData;
 /// <summary>
-/// This enum contains markers of free company property owned by it
+/// 此枚举包含部队房屋的标记。
 /// </summary>
 public enum FCHousingMarker
 {

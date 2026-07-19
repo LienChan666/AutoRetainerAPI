@@ -14,7 +14,7 @@ public class HalfHourSchedule
     {
         if(!IsValidIndex(intervalIndex))
         {
-            PluginLog.Error($"Invalid interval index: {intervalIndex}");
+            PluginLog.Error($"无效的时间间隔索引：{intervalIndex}");
             return;
         }
 
@@ -32,7 +32,7 @@ public class HalfHourSchedule
     {
         if(!IsValidIndex(intervalIndex))
         {
-            PluginLog.Error($"Invalid interval index: {intervalIndex}");
+            PluginLog.Error($"无效的时间间隔索引：{intervalIndex}");
             return IntervalState.Inactive;
         }
 

@@ -10,7 +10,7 @@ using System.Text;
 
 namespace AutoRetainerAPI;
 
-//autogen via regex
+//通过正则表达式自动生成
 //public (.+) (\S+)( = .+;)
 //public \1 \2 => Svc.PluginInterface.GetIpcSubscriber<\1>("AutoRetainer.GetConfig.\2").InvokeFunc();
 public class AutoRetainerConfig 
